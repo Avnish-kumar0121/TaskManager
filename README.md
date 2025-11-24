@@ -129,7 +129,7 @@ Frontend will run on `http://localhost:3000`
 ### Backend (.env)
 ```
 PORT=5000
-MONGODB_URI=mongodb://localhost:27017/taskmanager
+MONGODB_URI=mongodb://localhost:--------/taskmanager
 NODE_ENV=development
 ```
 
