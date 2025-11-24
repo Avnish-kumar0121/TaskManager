@@ -1,0 +1,59 @@
+.task-list {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.task-list-header {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.task-list-header h2 {
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.task-items {
+  display: grid;
+  gap: 15px;
+}
+
+.task-list-empty {
+  background: white;
+  border-radius: 12px;
+  padding: 60px 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.task-list-empty p {
+  color: #999;
+  font-size: 1.1rem;
+}
+
+.edit-task-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.edit-task-modal {
+  background: white;
+  border-radius: 12px;
+  max-width: 500px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
