@@ -90,7 +90,7 @@ cp .env.example .env
 
 # Edit .env file with your MongoDB connection string
 # For local MongoDB:
-# MONGODB_URI=mongodb://localhost:27017/taskmanager
+# MONGODB_URI=mongodb://localhost:---/taskmanager
 # For MongoDB Atlas:
 # MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/taskmanager
 ```
